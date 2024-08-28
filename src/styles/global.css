@@ -73,3 +73,66 @@
     text-indent: 6%;
     text-align: justify;
 }
+
+.beneficios {
+    background-color: #808080;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table-information {
+    width: 30rem;
+    border: 1px solid #1E1E1E;
+    border-collapse: collapse;
+
+    text-align: center;
+}
+
+.table-titulo{
+    background-color: #c59349;
+    font-weight: 800;
+    padding: .5rem;
+}
+
+.table-text {
+    font-weight: 600;
+    padding: .5rem;
+}
+
+.video-promocional {
+    background-color: #1E1E1E;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.localizacao {
+    background-color: #FFFFFF;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-localization {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.footer {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
