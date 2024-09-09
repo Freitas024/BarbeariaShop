@@ -76,6 +76,27 @@
     list-style-type: none;
 }
 
+.titulo-card{
+    font-size: 1.5rem;
+    color: #c59349;
+}
+
+.button-card {
+    background-color: #c59349;
+    border: none;
+    border-radius: 6px;
+    width: 6rem;
+    height: 2rem;
+
+    cursor: pointer;
+
+    font-weight: 600;
+}
+
+.button-card:hover {
+    background-color: #a4742b;
+    transition: 1s;
+}
 
 
 
